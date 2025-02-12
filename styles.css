@@ -1,0 +1,66 @@
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #1e1e1e;
+    --card-bg: #252525;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent-blue: #007bff;
+    --accent-green: #00ff9d;
+}
+
+body.dark-theme {
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+}
+
+.navbar {
+    background-color: var(--secondary-bg);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.ticker-tape {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ticker-item {
+    display: inline-block;
+    padding: 0 20px;
+    animation: ticker 20s linear infinite;
+}
+
+.market-card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.glow-button {
+    background: var(--accent-blue);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px var(--accent-blue);
+}
+
+.market-data {
+    margin-top: 15px;
+}
+
+.data-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+} 
