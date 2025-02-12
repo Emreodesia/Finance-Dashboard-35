@@ -1,0 +1,4976 @@
+{
+  "TemplateInfo": [
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": null,
+      "Description": "Creates a gitignore file for a dotnet project.",
+      "Identity": "Microsoft.Standard.QuickStarts.GitignoreFile",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "GitignoreFile",
+      "Precedence": 100,
+      "Name": "dotnet gitignore file",
+      "ShortNameList": [
+        "gitignore"
+      ],
+      "Tags": {
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/content/Gitignore/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/Gitignore/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": "global.json",
+      "Description": "A file for selecting the .NET Core SDK version.",
+      "Identity": "Microsoft.Standard.QuickStarts.GlobalJsonFile",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "GlobalJsonFile",
+      "Precedence": 100,
+      "Name": "global.json file",
+      "ShortNameList": [
+        "globaljson"
+      ],
+      "Tags": {
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "SdkVersion": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The version of the .NET Core SDK to use."
+        },
+        "dotnet-cli-version": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": ""
+        }
+      },
+      "ConfigPlace": "/content/GlobalJson/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/GlobalJson/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": "nuget.config",
+      "Description": "A file for configuring the locations NuGet will search for packages",
+      "Identity": "Microsoft.Standard.QuickStarts.Nuget.Config",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemNugetConfig",
+      "Precedence": 100,
+      "Name": "NuGet Config",
+      "ShortNameList": [
+        "nugetconfig"
+      ],
+      "Tags": {
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/content/Nuget/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/Nuget/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Solution"
+      ],
+      "DefaultName": "Solution1",
+      "Description": "Create an empty solution containing no projects",
+      "Identity": "Microsoft.Standard.QuickStarts.Solution",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemSolution",
+      "Precedence": 100,
+      "Name": "Solution File",
+      "ShortNameList": [
+        "sln"
+      ],
+      "Tags": {},
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/content/Solution/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/Solution/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": null,
+      "Description": "The file that defines available dotnet tools.",
+      "Identity": "Microsoft.Standard.QuickStarts.ToolManifestFile",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ToolManifestFile",
+      "Precedence": 100,
+      "Name": "Dotnet local tool manifest file",
+      "ShortNameList": [
+        "tool-manifest"
+      ],
+      "Tags": {
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/content/ToolManifest/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/ToolManifest/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Config"
+      ],
+      "DefaultName": "web.config",
+      "Description": "A file used to configure Web Application settings",
+      "Identity": "Microsoft.Standard.QuickStarts.Web.Config",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "ItemWebConfig",
+      "Precedence": 100,
+      "Name": "Web Config",
+      "ShortNameList": [
+        "webconfig"
+      ],
+      "Tags": {
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/content/WebConfig/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "cf1f4070-b6e1-4f38-a10a-2f26d54bf5d9",
+      "HostConfigPlace": "/content/WebConfig/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 7000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0",
+            "netstandard2.1": "Target netstandard2.1",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets the LangVersion property in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ClassLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target .NET",
+          "DefaultOverrides": {
+            "Framework": "net5.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 7000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0",
+            "netstandard2.1": "Target netstandard2.1",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ClassLibrary-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target .NET",
+          "DefaultOverrides": {
+            "Framework": "net5.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 7000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0",
+            "netstandard2.1": "Target netstandard2.1",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets the LangVersion property in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ClassLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target .NET",
+          "DefaultOverrides": {
+            "Framework": "net5.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 7000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets the LangVersion property in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ConsoleApplication-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 7000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ConsoleApplication-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 7000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets the LangVersion property in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "6ac8e134-71fc-409e-90a8-1de3fd8103a8",
+      "HostConfigPlace": "/content/ConsoleApplication-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "MSTest"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains MSTest unit tests that can run on .NET Core on Windows, Linux and MacOS.",
+      "Identity": "Microsoft.Test.MSTest.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.MSTest",
+      "Precedence": 7000,
+      "Name": "MSTest Test Project",
+      "ShortNameList": [
+        "mstest"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/MSTest-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/MSTest-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "MSTest"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains MSTest unit tests that can run on .NET Core on Windows, Linux and MacOS.",
+      "Identity": "Microsoft.Test.MSTest.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.MSTest",
+      "Precedence": 7000,
+      "Name": "MSTest Test Project",
+      "ShortNameList": [
+        "mstest"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/MSTest-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/MSTest-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "MSTest"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains MSTest unit tests that can run on .NET Core on Windows, Linux and MacOS.",
+      "Identity": "Microsoft.Test.MSTest.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.MSTest",
+      "Precedence": 7000,
+      "Name": "MSTest Test Project",
+      "ShortNameList": [
+        "mstest"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/MSTest-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/MSTest-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "NUnitTestItem",
+      "Description": "A item that contains NUnit tests",
+      "Identity": "NUnit3.DotNetNew.ItemTemplate.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.ItemTemplate",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Item",
+      "ShortNameList": [
+        "nunit-test"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-csharp-test-item/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 7000,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/NUnit-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/NUnit-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "NUnitTestItem",
+      "Description": "A item that contains NUnit tests",
+      "Identity": "NUnit3.DotNetNew.ItemTemplate.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.ItemTemplate",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Item",
+      "ShortNameList": [
+        "nunit-test"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-fsharp-test-item/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 7000,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/NUnit-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/NUnit-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "NUnitTestItem",
+      "Description": "A item that contains NUnit tests",
+      "Identity": "NUnit3.DotNetNew.ItemTemplate.VisualBasic",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.ItemTemplate",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Item",
+      "ShortNameList": [
+        "nunit-test"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-visualbasic-test-item/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 7000,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/NUnit-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/NUnit-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "xUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains xUnit.net tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Test.xUnit.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.xUnit",
+      "Precedence": 7000,
+      "Name": "xUnit Test Project",
+      "ShortNameList": [
+        "xunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/XUnit-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/XUnit-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "xUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains xUnit.net tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Test.xUnit.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.xUnit",
+      "Precedence": 7000,
+      "Name": "xUnit Test Project",
+      "ShortNameList": [
+        "xunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/XUnit-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/XUnit-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Test",
+        "xUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains xUnit.net tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Test.xUnit.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Test.xUnit",
+      "Precedence": 7000,
+      "Name": "xUnit Test Project",
+      "ShortNameList": [
+        "xunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/XUnit-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2218ee93-6082-474f-90cb-f53241b5fe1d",
+      "HostConfigPlace": "/content/XUnit-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "ASP.NET"
+      ],
+      "DefaultName": "_ViewImports",
+      "Description": "An MVC View Import Page",
+      "Identity": "Microsoft.AspNetCore.Mvc.ViewImports",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AspNetCore.Mvc.ViewImports",
+      "Precedence": 100,
+      "Name": "MVC ViewImports",
+      "ShortNameList": [
+        "viewimports"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/ViewImports/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "HostConfigPlace": "/ViewImports/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "ASP.NET"
+      ],
+      "DefaultName": "Component1",
+      "Description": "A reusable UI component implemented with Razor",
+      "Identity": "Microsoft.AspNetCore.Components.RazorComponent",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AspNetCore.Components.RazorComponent",
+      "Precedence": 100,
+      "Name": "Razor Component",
+      "ShortNameList": [
+        "razorcomponent"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/RazorComponent/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "HostConfigPlace": "/RazorComponent/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "ASP.NET"
+      ],
+      "DefaultName": "_ViewStart",
+      "Description": "An MVC ViewStart Page",
+      "Identity": "Microsoft.AspNetCore.Mvc.ViewStart",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AspNetCore.Mvc.ViewStart",
+      "Precedence": 100,
+      "Name": "MVC ViewStart",
+      "ShortNameList": [
+        "viewstart"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        }
+      },
+      "ConfigPlace": "/ViewStart/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "HostConfigPlace": "/ViewStart/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "gRPC"
+      ],
+      "DefaultName": "protobuf",
+      "Description": "A protocol buffer file for describing messages and services for gRPC.",
+      "Identity": "Microsoft.Web.Grpc.Protobuf",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Grpc.Protobuf",
+      "Precedence": 100,
+      "Name": "Protocol Buffer File",
+      "ShortNameList": [
+        "proto"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "": ""
+          },
+          "DefaultValue": ""
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/Protobuf/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "HostConfigPlace": "/Protobuf/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "ASP.NET"
+      ],
+      "DefaultName": "Index",
+      "Description": "A Razor page with or without a page model",
+      "Identity": "Microsoft.AspNetCore.Mvc.RazorPage",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AspNetCore.Mvc.RazorPage",
+      "Precedence": 100,
+      "Name": "Razor Page",
+      "ShortNameList": [
+        "page"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "no-pagemodel": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "create page without a PageModel",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/RazorPage/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "79f5a994-d04b-4cf3-a86a-879f793fba9e",
+      "HostConfigPlace": "/RazorPage/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating an ASP.NET Core application with example ASP.NET Core MVC Views and Controllers. This template can also be used for RESTful HTTP services.",
+      "Identity": "Microsoft.Web.Mvc.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Mvc",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Web App (Model-View-Controller)",
+      "ShortNameList": [
+        "mvc"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication",
+            "IndividualB2C": "Individual authentication with Azure AD B2C",
+            "SingleOrg": "Organizational authentication for a single tenant",
+            "MultiOrg": "Organizational authentication for multiple tenants",
+            "Windows": "Windows authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "AAdB2CInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/tfp/",
+          "Description": "The Azure Active Directory B2C instance to connect to (use with IndividualB2C auth)."
+        },
+        "SignUpSignInPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_susi",
+          "Description": "The sign-in and sign-up policy ID for this project (use with IndividualB2C auth)."
+        },
+        "SignedOutCallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signout/B2C_1_susi",
+          "Description": "The global signout callback (use with IndividualB2C auth)."
+        },
+        "ResetPasswordPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_reset",
+          "Description": "The reset password policy ID for this project (use with IndividualB2C auth)."
+        },
+        "EditProfilePolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_edit_profile",
+          "Description": "The edit profile policy ID for this project (use with IndividualB2C auth)."
+        },
+        "AADInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/",
+          "Description": "The Azure Active Directory instance to connect to (use with SingleOrg or MultiOrg auth)."
+        },
+        "ClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for this project (use with IndividualB2C, SingleOrg or MultiOrg auth)."
+        },
+        "Domain": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The domain for the directory tenant (use with SingleOrg or IndividualB2C auth)."
+        },
+        "TenantId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The TenantId ID of the directory to connect to (use with SingleOrg auth)."
+        },
+        "CallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signin-oidc",
+          "Description": "The request path within the application's base path of the redirect URI (use with SingleOrg or IndividualB2C auth)."
+        },
+        "OrgReadAccess": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to allow this application read access to the directory (only applies to SingleOrg or MultiOrg auth).",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-Company.WebApplication1-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "RazorRuntimeCompilation": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Determines if the project is configured to use Razor runtime compilation in Debug builds.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiUrl": {
+          "DataType": "string",
+          "DefaultValue": "https://graph.microsoft.com/v1.0",
+          "Description": "URL of the API to call from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        },
+        "CallsMicrosoftGraph": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Specifies if the web app calls Microsoft Graph. This option only applies if --auth SingleOrg or --auth MultiOrg is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiScopes": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "Scopes to request to call the API from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        }
+      },
+      "ConfigPlace": "/StarterWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/StarterWeb-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": "https://aka.ms/aspnetcore/5.0-third-party-notices",
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating an ASP.NET Core application with example ASP.NET Core MVC Views and Controllers. This template can also be used for RESTful HTTP services.",
+      "Identity": "Microsoft.Web.Mvc.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Mvc",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Web App (Model-View-Controller)",
+      "ShortNameList": [
+        "mvc"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/StarterWeb-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/StarterWeb-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": "https://aka.ms/aspnetcore/5.0-third-party-notices",
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "WebAPI"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating an ASP.NET Core application with an example Controller for a RESTful HTTP service. This template can also be used for ASP.NET Core MVC Views and Controllers.",
+      "Identity": "Microsoft.Web.WebApi.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.WebApi",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Web API",
+      "ShortNameList": [
+        "webapi"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "IndividualB2C": "Individual authentication with Azure AD B2C",
+            "SingleOrg": "Organizational authentication for a single tenant",
+            "Windows": "Windows authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "AAdB2CInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/tfp/",
+          "Description": "The Azure Active Directory B2C instance to connect to (use with IndividualB2C auth)."
+        },
+        "SignUpSignInPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "The sign-in and sign-up policy ID for this project (use with IndividualB2C auth)."
+        },
+        "AADInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/",
+          "Description": "The Azure Active Directory instance to connect to (use with SingleOrg auth)."
+        },
+        "ClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for this project (use with SingleOrg or IndividualB2C auth)."
+        },
+        "Domain": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The domain for the directory tenant (use with SingleOrg or IndividualB2C auth)."
+        },
+        "DefaultScope": {
+          "DataType": "string",
+          "DefaultValue": "access_as_user",
+          "Description": "The API scope the client needs to request to provision an access token. (use with IndividualB2C, SingleOrg)."
+        },
+        "TenantId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The TenantId ID of the directory to connect to (use with SingleOrg auth)."
+        },
+        "OrgReadAccess": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to allow this application read access to the directory (only applies to SingleOrg auth).",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-Company.WebApplication1-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json in the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiUrl": {
+          "DataType": "string",
+          "DefaultValue": "https://graph.microsoft.com/v1.0",
+          "Description": "URL of the API to call from the web app. This option only applies if --auth SingleOrg or --auth IndividualB2C is specified."
+        },
+        "CallsMicrosoftGraph": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Specifies if the web app calls Microsoft Graph. This option only applies if --auth SingleOrg is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiScopes": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "Scopes to request to call the API from the web app. This option only applies if --auth SingleOrg or --auth IndividualB2C is specified."
+        },
+        "DisableOpenAPI": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Disable OpenAPI (Swagger) support",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WebApi-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/WebApi-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "WebAPI"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating an ASP.NET Core application with an example Controller for a RESTful HTTP service. This template can also be used for ASP.NET Core MVC Views and Controllers.",
+      "Identity": "Microsoft.Web.WebApi.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.WebApi",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Web API",
+      "ShortNameList": [
+        "webapi"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WebApi-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/WebApi-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Worker",
+        "Web"
+      ],
+      "DefaultName": "WorkerService",
+      "Description": "An empty project template for creating a worker service.",
+      "Identity": "Microsoft.Worker.Empty.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Worker.Empty",
+      "Precedence": 7000,
+      "Name": "Worker Service",
+      "ShortNameList": [
+        "worker"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Worker-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/Worker-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Worker",
+        "Web"
+      ],
+      "DefaultName": "WorkerService",
+      "Description": "An empty project template for creating a worker service.",
+      "Identity": "Microsoft.Worker.Empty.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Worker.Empty",
+      "Precedence": 7000,
+      "Name": "Worker Service",
+      "ShortNameList": [
+        "worker"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Worker-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/Worker-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Blazor"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating a Blazor server app that runs server-side inside an ASP.NET Core app and handles user interactions over a SignalR connection. This template can be used for web apps with rich dynamic user interfaces (UIs).",
+      "Identity": "Microsoft.Web.Blazor.Server.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Blazor.Server",
+      "Precedence": 7000,
+      "Name": "Blazor Server App",
+      "ShortNameList": [
+        "blazorserver"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication",
+            "IndividualB2C": "Individual authentication with Azure AD B2C",
+            "SingleOrg": "Organizational authentication for a single tenant",
+            "MultiOrg": "Organizational authentication for multiple tenants",
+            "Windows": "Windows authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "AAdB2CInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/tfp/",
+          "Description": "The Azure Active Directory B2C instance to connect to (use with IndividualB2C auth)."
+        },
+        "SignUpSignInPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_susi",
+          "Description": "The sign-in and sign-up policy ID for this project (use with IndividualB2C auth)."
+        },
+        "SignedOutCallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signout/B2C_1_susi",
+          "Description": "The global signout callback (use with IndividualB2C auth)."
+        },
+        "ResetPasswordPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_reset",
+          "Description": "The reset password policy ID for this project (use with IndividualB2C auth)."
+        },
+        "EditProfilePolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_edit_profile",
+          "Description": "The edit profile policy ID for this project (use with IndividualB2C auth)."
+        },
+        "AADInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/",
+          "Description": "The Azure Active Directory instance to connect to (use with SingleOrg or MultiOrg auth)."
+        },
+        "ClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for this project (use with IndividualB2C, SingleOrg or MultiOrg auth)."
+        },
+        "Domain": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The domain for the directory tenant (use with SingleOrg or IndividualB2C auth)."
+        },
+        "TenantId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The TenantId ID of the directory to connect to (use with SingleOrg auth)."
+        },
+        "CallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signin-oidc",
+          "Description": "The request path within the application's base path of the redirect URI (use with SingleOrg or IndividualB2C auth)."
+        },
+        "OrgReadAccess": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to allow this application read access to the directory (only applies to SingleOrg or MultiOrg auth).",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-BlazorServerWeb-CSharp-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiUrl": {
+          "DataType": "string",
+          "DefaultValue": "https://graph.microsoft.com/beta",
+          "Description": "URL of the API to call from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        },
+        "CallsMicrosoftGraph": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Specifies if the web app calls Microsoft Graph. This option only applies if --auth SingleOrg or --auth MultiOrg is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiScopes": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "Scopes to request to call the API from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/BlazorServerWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/BlazorServerWeb-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": "https://aka.ms/aspnetcore/5.0-third-party-notices",
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Blazor",
+        "WebAssembly"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating a Blazor app that runs on WebAssembly and is optionally hosted by an ASP.NET Core app. This template can be used for web apps with rich dynamic user interfaces (UIs).",
+      "Identity": "Microsoft.Web.Blazor.Wasm.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Blazor.Wasm",
+      "Precedence": 6002,
+      "Name": "Blazor WebAssembly App",
+      "ShortNameList": [
+        "blazorwasm"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication",
+            "IndividualB2C": "Individual authentication with Azure AD B2C",
+            "SingleOrg": "Organizational authentication for a single tenant"
+          },
+          "DefaultValue": "None"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "Hosted": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, includes an ASP.NET Core host for the Blazor WebAssembly app.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "Authority": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The authority of the OIDC provider (use with standalone Individual auth)."
+        },
+        "AAdB2CInstance": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Azure Active Directory B2C instance to connect to (use with IndividualB2C auth)."
+        },
+        "SignUpSignInPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_susi",
+          "Description": "The sign-in and sign-up policy ID for this project (use with IndividualB2C auth)."
+        },
+        "AADInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/",
+          "Description": "The Azure Active Directory instance to connect to (use with SingleOrg auth)."
+        },
+        "ClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for this project (use with IndividualB2C, SingleOrg or Individual auth in standalone scenarios)."
+        },
+        "Domain": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The domain for the directory tenant (use with SingleOrg or IndividualB2C auth)."
+        },
+        "AppIDUri": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The App ID Uri for the server API we want to call (use with SingleOrg or IndividualB2C auth)."
+        },
+        "APIClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for the API that the server hosts (use with IndividualB2C, SingleOrg)."
+        },
+        "DefaultScope": {
+          "DataType": "string",
+          "DefaultValue": "access_as_user",
+          "Description": "The API scope the client needs to request to provision an access token. (use with IndividualB2C, SingleOrg)."
+        },
+        "TenantId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The TenantId ID of the directory to connect to (use with SingleOrg auth)."
+        },
+        "OrgReadAccess": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to allow this application read access to the directory (only applies to SingleOrg).",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-BlazorServerWeb-CSharp-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "PWA": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, produces a Progressive Web Application (PWA) supporting installation and offline use.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiUrl": {
+          "DataType": "string",
+          "DefaultValue": "https://graph.microsoft.com/v1.0",
+          "Description": "URL of the API to call from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C without and ASP.NET Core host is specified."
+        },
+        "CallsMicrosoftGraph": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Specifies if the web app calls Microsoft Graph. This option only applies if --auth SingleOrg or --auth MultiOrg is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiScopes": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "Scopes to request to call the API from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C without and ASP.NET Core host is specified."
+        }
+      },
+      "ConfigPlace": "/ComponentsWebAssembly-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/ComponentsWebAssembly-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": "https://aka.ms/aspnetcore/5.0-third-party-notices",
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Empty"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "An empty project template for creating an ASP.NET Core application. This template does not have any content in it.",
+      "Identity": "Microsoft.Web.Empty.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Empty",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Empty",
+      "ShortNameList": [
+        "web"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/EmptyWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/EmptyWeb-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Empty"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "An empty project template for creating an ASP.NET Core application. This template does not have any content in it.",
+      "Identity": "Microsoft.Web.Empty.FSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Empty",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Empty",
+      "ShortNameList": [
+        "web"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/EmptyWeb-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/EmptyWeb-FSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "gRPC"
+      ],
+      "DefaultName": "GrpcService",
+      "Description": "A project template for creating a gRPC ASP.NET Core service.",
+      "Identity": "Microsoft.Grpc.Service.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Grpc",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core gRPC Service",
+      "ShortNameList": [
+        "grpc"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/GrpcService-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/GrpcService-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "Razor",
+        "Library"
+      ],
+      "DefaultName": "RazorClassLibrary",
+      "Description": "A project for creating a Razor class library that targets .NET Standard",
+      "Identity": "Microsoft.Web.Razor.Library.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.Razor",
+      "Precedence": 7000,
+      "Name": "Razor Class Library",
+      "ShortNameList": [
+        "razorclasslib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "SupportPagesAndViews": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to support adding traditional Razor pages and Views in addition to components to this library.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/RazorClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/RazorClassLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC",
+        "Razor Pages"
+      ],
+      "DefaultName": "WebApplication",
+      "Description": "A project template for creating an ASP.NET Core application with example ASP.NET Core Razor Pages content",
+      "Identity": "Microsoft.Web.RazorPages.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Web.RazorPages",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core Web App",
+      "ShortNameList": [
+        "webapp",
+        "razor"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication",
+            "IndividualB2C": "Individual authentication with Azure AD B2C",
+            "SingleOrg": "Organizational authentication for a single tenant",
+            "MultiOrg": "Organizational authentication for multiple tenants",
+            "Windows": "Windows authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "AAdB2CInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/tfp/",
+          "Description": "The Azure Active Directory B2C instance to connect to (use with IndividualB2C auth)."
+        },
+        "SignUpSignInPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_susi",
+          "Description": "The sign-in and sign-up policy ID for this project (use with IndividualB2C auth)."
+        },
+        "SignedOutCallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signout/B2C_1_susi",
+          "Description": "The global signout callback (use with IndividualB2C auth)."
+        },
+        "ResetPasswordPolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_reset",
+          "Description": "The reset password policy ID for this project (use with IndividualB2C auth)."
+        },
+        "EditProfilePolicyId": {
+          "DataType": "string",
+          "DefaultValue": "b2c_1_edit_profile",
+          "Description": "The edit profile policy ID for this project (use with IndividualB2C auth)."
+        },
+        "AADInstance": {
+          "DataType": "string",
+          "DefaultValue": "https://login.microsoftonline.com/",
+          "Description": "The Azure Active Directory instance to connect to (use with SingleOrg or MultiOrg auth)."
+        },
+        "ClientId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The Client ID for this project (use with IndividualB2C, SingleOrg or MultiOrg auth)."
+        },
+        "Domain": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The domain for the directory tenant (use with SingleOrg or IndividualB2C auth)."
+        },
+        "TenantId": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The TenantId ID of the directory to connect to (use with SingleOrg auth)."
+        },
+        "CallbackPath": {
+          "DataType": "string",
+          "DefaultValue": "/signin-oidc",
+          "Description": "The request path within the application's base path of the redirect URI (use with SingleOrg or IndividualB2C auth)."
+        },
+        "OrgReadAccess": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to allow this application read access to the directory (only applies to SingleOrg or MultiOrg auth).",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-Company.WebApplication1-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json in the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "RazorRuntimeCompilation": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Determines if the project is configured to use Razor runtime compilation in Debug builds.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiUrl": {
+          "DataType": "string",
+          "DefaultValue": "https://graph.microsoft.com/v1.0",
+          "Description": "URL of the API to call from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        },
+        "CallsMicrosoftGraph": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Specifies if the web app calls Microsoft Graph. This option only applies if --auth SingleOrg or --auth MultiOrg is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "CalledApiScopes": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "Scopes to request to call the API from the web app. This option only applies if --auth SingleOrg, --auth MultiOrg or --auth IndividualB2C is specified."
+        }
+      },
+      "ConfigPlace": "/RazorPagesWeb-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "eb297545-20a6-4f48-8c0f-58d8cfc7d804",
+      "HostConfigPlace": "/RazorPagesWeb-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": "https://aka.ms/aspnetcore/5.0-third-party-notices",
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC",
+        "SPA"
+      ],
+      "DefaultName": null,
+      "Description": "",
+      "Identity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.ReactRedux.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.ReactRedux",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core with React.js and Redux",
+      "ShortNameList": [
+        "reactredux"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if either IndividualAuth or OrganizationalAuth is used)."
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/ReactRedux-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "HostConfigPlace": "/ReactRedux-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC",
+        "SPA"
+      ],
+      "DefaultName": null,
+      "Description": "",
+      "Identity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.Angular.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.Angular",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core with Angular",
+      "ShortNameList": [
+        "angular"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-Company.WebApplication1-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json in the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if IndividualLocalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Angular-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "HostConfigPlace": "/Angular-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Web",
+        "MVC",
+        "SPA"
+      ],
+      "DefaultName": null,
+      "Description": "",
+      "Identity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.React.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.DotNet.Web.Spa.ProjectTemplates.React",
+      "Precedence": 7000,
+      "Name": "ASP.NET Core with React.js",
+      "ShortNameList": [
+        "react"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "auth": {
+          "Description": "The type of authentication to use",
+          "ChoicesAndDescriptions": {
+            "None": "No authentication",
+            "Individual": "Individual authentication"
+          },
+          "DefaultValue": "None"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "UserSecretsId": {
+          "DataType": "string",
+          "DefaultValue": "aspnet-Company.WebApplication1-53bc9b9d-9d6a-45d4-8429-2a2761773502",
+          "Description": "The ID to use for secrets (use with OrgReadAccess or Individual auth)."
+        },
+        "ExcludeLaunchSettings": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to exclude launchSettings.json from the generated template.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "HttpPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTP endpoint in launchSettings.json."
+        },
+        "HttpsPort": {
+          "DataType": "integer",
+          "DefaultValue": null,
+          "Description": "Port number to use for the HTTPS endpoint in launchSettings.json. This option is only applicable when the parameter no-https is not used (no-https will be ignored if IndividualLocalAuth is used)."
+        },
+        "NoHttps": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to turn off HTTPS. This option only applies if Individual, IndividualB2C, SingleOrg, or MultiOrg aren't used for --auth.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "UseLocalDB": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether to use LocalDB instead of SQLite. This option only applies if --auth Individual or --auth IndividualB2C is specified.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/React-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "b2861e1a-0dfa-4985-a74c-3aa0eb62cb33",
+      "HostConfigPlace": "/React-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsApp1",
+      "Description": "A project template for creating a .NET Windows Forms (WinForms) App.",
+      "Identity": "Microsoft.Common.WinForms.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms",
+      "Precedence": 5000,
+      "Name": "Windows Forms App",
+      "ShortNameList": [
+        "winforms"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsApplication-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsApp1",
+      "Description": "A project template for creating a .NET Windows Forms (WinForms) App.",
+      "Identity": "Microsoft.Common.WinForms.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms",
+      "Precedence": 5000,
+      "Name": "Windows Forms App",
+      "ShortNameList": [
+        "winforms"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "UseAppFramework": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "The application should use the Visual Basic Application Framework",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsApplication-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsApplication-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsControlLibrary1",
+      "Description": "A project template for creating a control library that targets .NET Windows Forms (WinForms).",
+      "Identity": "Microsoft.Common.WinForms.ControlLibrary.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms.ControlLibrary",
+      "Precedence": 5000,
+      "Name": "Windows Forms Control Library",
+      "ShortNameList": [
+        "winformscontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsControlLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsControlLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsControlLibrary1",
+      "Description": "A project template for creating a control library that targets .NET Windows Forms (WinForms).",
+      "Identity": "Microsoft.Common.WinForms.ControlLibrary.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms.ControlLibrary",
+      "Precedence": 5000,
+      "Name": "Windows Forms Control Library",
+      "ShortNameList": [
+        "winformscontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsControlLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsControlLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsLibrary1",
+      "Description": "A project template for creating a class library that targets .NET Windows Forms (WinForms).",
+      "Identity": "Microsoft.Common.WinForms.Library.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms.Library",
+      "Precedence": 5000,
+      "Name": "Windows Forms Class Library",
+      "ShortNameList": [
+        "winformslib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WinForms"
+      ],
+      "DefaultName": "WinFormsLibrary1",
+      "Description": "A project template for creating a class library that targets .NET Windows Forms (WinForms).",
+      "Identity": "Microsoft.Common.WinForms.Library.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WinForms.Library",
+      "Precedence": 5000,
+      "Name": "Windows Forms Class library",
+      "ShortNameList": [
+        "winformslib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WinFormsLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "7d7b6404-6689-4000-85ce-35afeb0b7959",
+      "HostConfigPlace": "/WinFormsLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfApp1",
+      "Description": "A project for creating a .NET Core WPF Application",
+      "Identity": "Microsoft.Common.WPF",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF",
+      "Precedence": 3000,
+      "Name": "WPF Application",
+      "ShortNameList": [
+        "wpf"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfApplication-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfApp1",
+      "Description": "A project for creating a .NET Core WPF Application",
+      "Identity": "Microsoft.Common.WPF.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF",
+      "Precedence": 3000,
+      "Name": "WPF Application",
+      "ShortNameList": [
+        "wpf"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfApplication-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfApplication-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfLibrary1",
+      "Description": "A project for creating a class library that targets a .NET Core WPF Application",
+      "Identity": "Microsoft.Common.WPF.Library.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.Library",
+      "Precedence": 3000,
+      "Name": "WPF Class library",
+      "ShortNameList": [
+        "wpflib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfClassLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfLibrary1",
+      "Description": "A project for creating a class library that targets a .NET Core WPF Application",
+      "Identity": "Microsoft.Common.WPF.Library.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.Library",
+      "Precedence": 3000,
+      "Name": "WPF Class library",
+      "ShortNameList": [
+        "wpflib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfClassLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfClassLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfCustomControlLibrary1",
+      "Description": "A project for creating a custom control library for .NET Core WPF Applications",
+      "Identity": "Microsoft.Common.WPF.CustomControl.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.CustomControl",
+      "Precedence": 3000,
+      "Name": "WPF Custom Control Library",
+      "ShortNameList": [
+        "wpfcustomcontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfCustomControlLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfCustomControlLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfCustomControlLibrary1",
+      "Description": "A project for creating a custom control library for .NET Core WPF Applications",
+      "Identity": "Microsoft.Common.WPF.CustomControl.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.CustomControl",
+      "Precedence": 3000,
+      "Name": "WPF Custom Control Library",
+      "ShortNameList": [
+        "wpfcustomcontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfCustomControlLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfCustomControlLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfControlLibrary1",
+      "Description": "A project for creating a user control library for .NET Core WPF Applications",
+      "Identity": "Microsoft.Common.WPF.Control.CSharp.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.Control",
+      "Precedence": 3000,
+      "Name": "WPF User Control Library",
+      "ShortNameList": [
+        "wpfusercontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfUserControlLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfUserControlLibrary-CSharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "WPF"
+      ],
+      "DefaultName": "WpfControlLibrary1",
+      "Description": "A project for creating a user control library for .NET Core WPF Applications",
+      "Identity": "Microsoft.Common.WPF.Control.VisualBasic.5.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.WPF.Control",
+      "Precedence": 3000,
+      "Name": "WPF User Control Library",
+      "ShortNameList": [
+        "wpfusercontrollib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "langVersion": {
+          "DataType": "text",
+          "DefaultValue": "",
+          "Description": "Sets langVersion in the created project file"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/WpfUserControlLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "dcc15765-981b-40ca-8f12-0e63b1ad0292",
+      "HostConfigPlace": "/WpfUserControlLibrary-VisualBasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netcoreapp2.1": "Target netcoreapp2.1",
+            "netcoreapp2.2": "Target netcoreapp2.2",
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0",
+            "net35": "Target net35",
+            "net40": "Target net40",
+            "net45": "Target net45",
+            "net451": "Target net451",
+            "net452": "Target net452",
+            "net46": "Target net46",
+            "net461": "Target net461",
+            "net462": "Target net462",
+            "net47": "Target net47",
+            "net471": "Target net471",
+            "net472": "Target net472",
+            "net48": "Target net48"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-csharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "HostConfigPlace": "/Content/dotnet-new-nunit-csharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netcoreapp2.1": "Target netcoreapp2.1",
+            "netcoreapp2.2": "Target netcoreapp2.2",
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0",
+            "net35": "Target net35",
+            "net40": "Target net40",
+            "net45": "Target net45",
+            "net451": "Target net451",
+            "net452": "Target net452",
+            "net46": "Target net46",
+            "net461": "Target net461",
+            "net462": "Target net462",
+            "net47": "Target net47",
+            "net471": "Target net471",
+            "net472": "Target net472",
+            "net48": "Target net48"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-fsharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "HostConfigPlace": "/Content/dotnet-new-nunit-fsharp/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "Author": "Aleksei Kharlov aka halex2005 (codeofclimber.ru)",
+      "Classifications": [
+        "Test",
+        "NUnit"
+      ],
+      "DefaultName": "TestProject1",
+      "Description": "A project that contains NUnit tests that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "NUnit3.DotNetNew.Template.VisualBasic",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "NUnit3.DotNetNew.Template",
+      "Precedence": 0,
+      "Name": "NUnit 3 Test Project",
+      "ShortNameList": [
+        "nunit"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netcoreapp2.1": "Target netcoreapp2.1",
+            "netcoreapp2.2": "Target netcoreapp2.2",
+            "netcoreapp3.0": "Target netcoreapp3.0",
+            "netcoreapp3.1": "Target netcoreapp3.1",
+            "net5.0": "Target net5.0",
+            "net35": "Target net35",
+            "net40": "Target net40",
+            "net45": "Target net45",
+            "net451": "Target net451",
+            "net452": "Target net452",
+            "net46": "Target net46",
+            "net461": "Target net461",
+            "net462": "Target net462",
+            "net47": "Target net47",
+            "net471": "Target net471",
+            "net472": "Target net472",
+            "net48": "Target net48"
+          },
+          "DefaultValue": "net5.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "EnablePack": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "Whether or not to enable packaging (via (\"dotnet pack\") for the project.",
+          "DefaultIfOptionWithoutValue": "true"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/Content/dotnet-new-nunit-visualbasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "2d1c2ad1-5afd-4a3a-99b4-3c37c95ffe1d",
+      "HostConfigPlace": "/Content/dotnet-new-nunit-visualbasic/.template.config/dotnetcli.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    }
+  ]
+}
