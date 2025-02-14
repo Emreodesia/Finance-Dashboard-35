@@ -23,25 +23,27 @@
                 <span class="ticker-item">BTC: $95,000 <span class="text-success">+2.5%</span></span>
                 <span class="ticker-item">ETH: $2,800 <span class="text-danger">-1.2%</span></span>
                 <span class="ticker-item">BIST100: 9,500 <span class="text-success">+1.8%</span></span>
+                <span class="ticker-item">S&P 500: $6.116<span class="text-success">+0.5%</span></span>
             </div>
         </div>
     </nav>
-
+    
     <!-- Ana İçerik -->
     <div class="container-fluid mt-4">
         <!-- Hero Bölümü -->
         <div class="hero-section text-center mb-5">
             <h1>Tüm Finansal Piyasalar, Tek Bir Platformda!</h1>
             <p class="lead">Kripto, Hisse Senetleri, Endeksler ve Değerli Metaller Canlı Verilerle</p>
-           
+            <p>Finans Dashboard, tüm finansal piyasaları tek bir platformda toplar. Kripto para birimlerinden hisse senetlerine, endekslerden değerli metallere kadar geniş bir yelpazede canlı veriler sunar. Bu platform, yatırımcıların ve finans meraklılarının piyasa hareketlerini anlık olarak takip etmelerine olanak tanır.</p>
         </div>
+
 
         <!-- Piyasa Kartları -->
         <div class="row">
             <!-- Kripto Piyasası Kartı -->
             <div class="col-md-4 mb-4">
                 <div class="market-card">
-                    <h3>Kripto Piyasası</h3>
+                    <h3><i class="fas fa-coins"></i> Kripto Piyasası</h3>
                     <canvas id="cryptoChart"></canvas>
                     <div class="market-data">
                         <div class="data-item">
@@ -71,28 +73,28 @@
             <!-- Hisse Senetleri Kartı -->
             <div class="col-md-4 mb-4">
                 <div class="market-card">
-                    <h3>Hisse Senetleri</h3>
+                    <h3><i class="fas fa-chart-line"></i> Hisse Senetleri</h3>
                     <canvas id="stocksChart"></canvas>
                     <div class="market-data">
                         <div class="data-item">
-                            <span>Apple</span>
-                            <span class="value">$150</span>
+                            <span>S&P 500</span>
+                            <span class="value">6.116,6 $</span>
                         </div>
                         <div class="data-item">
-                            <span>Google</span>
-                            <span class="value">$2,500</span>
+                            <span>NASDAQ </span>
+                            <span class="value">19,912 $ </span>
                         </div>
                         <div class="data-item">
                             <span>BIST 100</span>
-                            <span class="value">9,500</span>
+                            <span class="value">9,500 $ </span>
                         </div>
                         <div class="data-item">
-                            <span>NASDAQ</span>
-                            <span class="value">15,000</span>
+                            <span>BIST 30</span>
+                            <span class="value">10,950 $ </span>
                         </div>
                         <div class="data-item">
                             <span>Nikkei 225</span>
-                            <span class="value">28,000</span>
+                            <span class="value">28,000 $ </span>
                         </div>
                     </div>
                 </div>
@@ -101,7 +103,7 @@
             <!-- Değerli Metaller Kartı -->
             <div class="col-md-4 mb-4">
                 <div class="market-card">
-                    <h3>Değerli Madenler</h3>
+                    <h3><i class="fas fa-gem"></i> Değerli Madenler</h3>
                     <canvas id="metalsChart"></canvas>
                     <div class="market-data">
                         <div class="data-item">
@@ -112,7 +114,6 @@
                             <span>Gümüş</span>
                             <span class="value">$25</span>
                         </div>
-
                         <div class="data-item">
                             <span>Platin</span>
                             <span class="value">$4</span>
@@ -120,7 +121,7 @@
                         <div class="data-item">
                             <span>Bakır</span>
                             <span class="value">$70</span>
-                            </div>
+                        </div>
                         <div class="data-item">
                             <span>Paladyum</span>
                             <span class="value">$2,000</span>
@@ -128,9 +129,69 @@
                     </div>
                 </div>
             </div>
+
+          
+               <!-- Değerli Metaller Kartı -->
+               <div class="col-md-6 mb-4">
+                <div class="market-card">
+                    <h3><i class="fas fa-gem"></i> Değerli Madenler</h3>
+                    <canvas id="metalsChart"></canvas>
+                    <div class="market-data">
+                        <div class="data-item">
+                            <span>Altın</span>
+                            <span class="value">$1,800</span>
+                        </div>
+                        <div class="data-item">
+                            <span>Gümüş</span>
+                            <span class="value">$25</span>
+                        </div>
+                        <div class="data-item">
+                            <span>Platin</span>
+                            <span class="value">$4</span>
+                        </div>
+                        <div class="data-item">
+                            <span>Bakır</span>
+                            <span class="value">$70</span>
+                        </div>
+                        <div class="data-item">
+                            <span>Paladyum</span>
+                            <span class="value">$2,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Döviz Kurları Kartı -->
+            <div class="col-md-6 mb-4">
+                <div class="market-card">
+                    <h3><i class="fas fa-dollar-sign"></i> Döviz Kurları</h3>
+                    <canvas id="forexChart"></canvas>
+                    <div class="market-data">
+                        <div class="data-item">
+                            <span>USD/TRY</span>
+                            <span class="value">₺8.50</span>
+                        </div>
+                        <div class="data-item">
+                            <span>EUR/TRY</span>
+                            <span class="value">₺10.00</span>
+                        </div>
+                        <div class="data-item">
+                            <span>GBP/TRY</span>
+                            <span class="value">₺11.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+            
+
+
+
+    
+    
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-4">
         <div class="container">
@@ -140,6 +201,7 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
 </body>
 </html>
