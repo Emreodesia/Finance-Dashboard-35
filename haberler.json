@@ -1,0 +1,52 @@
+[
+  {
+    "baslik": "Kripto para piyasası dalgalı seyrediyor",
+    "icerik": "Bitcoin (BTC) 96 bin dolar seviyesinde yatay işlem görüyor. Ethereum ise 2.700 dolar seviyelerine yöneliyor.",
+    "resim": "doc/a2.jpg"
+  },
+  {
+    "baslik": "Bitcoin 100.000 doları aştı!",
+    "icerik": "Kripto piyasalarında büyük hareketlilik yaşanıyor. Bitcoin yeni rekor seviyeye ulaştı.",
+    "resim": "doc/btc.jpg"
+  },
+  {
+    "baslik": "Altın fiyatlarında yükseliş",
+    "icerik": "Altın, dolar karşısında değer kazandı. Güncel fiyatları takip edin.",
+    "resim": "doc/gold.jpg"
+  },
+  {
+    "baslik": "Ethereum 3.000 Doları Geçti!",
+    "icerik": "Ethereum, güçlü bir yükseliş ile 3.000 dolar seviyesini geçti. Yatırımcılar dikkatli olmalı.",
+    "resim": "doc/eth.jpg"
+  },
+  {
+    "baslik": "Dolar/TL’de Sert Yükseliş",
+    "icerik": "Türk Lirası karşısında dolar 36 TL seviyelerini aştı, döviz kurlarındaki artış hızla devam ediyor.",
+    "resim": "doc/usd_try.jpg"
+  },
+  {
+    "baslik": "Kripto Para Regülasyonları Konuşuluyor",
+    "icerik": "Dünya genelinde kripto para regülasyonları hakkında önemli gelişmeler yaşanıyor. Bazı ülkeler yeni yasalar hazırlıyor.",
+    "resim": "doc/regulasyon.jpg"
+  },
+  {
+    "baslik": "Borsa İstanbul Yükseliyor",
+    "icerik": "Borsa İstanbul endeksi yeni rekor seviyelere yaklaşırken yatırımcılar güvenli liman arayışında.",
+    "resim": "doc/borsa.jpg"
+  },
+  {
+    "baslik": "Altın ve Gümüş Fiyatlarında Rekor Artış",
+    "icerik": "Altın ve gümüş fiyatları, dünya genelindeki ekonomik belirsizlikler nedeniyle hızla yükseliyor.",
+    "resim": "doc/altin_gumus.jpg"
+  },
+  {
+    "baslik": "SP500 Endeksi Yükseliyor",
+    "icerik": "ABD hisse senedi endeksi SP500, 4.200 seviyelerini geçti ve yatırımcılar için büyük fırsatlar sunuyor.",
+    "resim": "doc/sp500.jpg"
+  },
+  {
+    "baslik": "Değerli Madenler İçin Yüksek Beklentiler",
+    "icerik": "Platin ve paladyum fiyatlarında önemli artışlar yaşanıyor. Yatırımcılar bu metaller için büyük beklentiler içinde.",
+    "resim": "doc/metaller.jpg"
+  }
+]

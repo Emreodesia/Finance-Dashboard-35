@@ -1,6 +1,33 @@
 {
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fintec-open-",
+  "description": "Modern and dark themed finance tracking platform.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emreodesia/Fintec-Open-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emreodesia/Fintec-Open-/issues"
+  },
+  "homepage": "https://github.com/Emreodesia/Fintec-Open-#readme"
 }

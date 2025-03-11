@@ -34,3 +34,4 @@ app.get('/api/stocks', (req, res) => {
 app.listen(port, () => {
     console.log(`Server ${port} portunda çalışıyor`);
 }); 
+

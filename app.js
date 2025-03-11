@@ -136,6 +136,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Canlı veri güncelleme simülasyonu
     setInterval(updatePrices, 5000);
+
+    // Haberleri çek ve göster
+    fetchNews();
 });
 
 async function updatePrices() {
@@ -202,4 +205,25 @@ async function updatePrices() {
     } catch (error) {
         console.error('Fiyatları güncellerken bir hata oluştu:', error);
     }
+}
+
+async function fetchNews() {
+    try {
+        const response = await fetch('https://newsapi.org/v2/top-headlines?category=business&apiKey=YOUR_NEWS_API_KEY');
+        const data = await response.json();
+        const newsList = document.getElementById('news-list');
+        data.articles.forEach(article => {
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = article.url;
+            link.textContent = article.title;
+            link.target = '_blank';
+            listItem.appendChild(link);
+            newsList.appendChild(listItem);
+        });
+    } catch (error) {
+        console.error('Haberleri çekerken bir hata oluştu:', error);
+    }
+
+    
 }

@@ -11,11 +11,12 @@
 body.dark-theme {
     background-color: var(--primary-bg);
     color: var(--text-primary);
+    font-family: 'Arial', sans-serif;
 }
 
 .navbar {
     background-color: var(--secondary-bg);
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .ticker-tape {
@@ -33,20 +34,7 @@ body.dark-theme {
     background-color: var(--card-bg);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.glow-button {
-    background: var(--accent-blue);
-    border: none;
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: white;
-    transition: all 0.3s ease;
-}
-
-.glow-button:hover {
-    box-shadow: 0 0 20px var(--accent-blue);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .market-data {
@@ -57,10 +45,17 @@ body.dark-theme {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @keyframes ticker {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
-} 
+}
+
+footer {
+    background: var(--secondary-bg);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
