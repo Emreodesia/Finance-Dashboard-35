@@ -1,40 +1,78 @@
 :root {
-    --primary-bg: #121212;
-    --secondary-bg: #1e1e1e;
-    --card-bg: #252525;
+    --primary-bg: #0d0d0d;
+    --secondary-bg: #1a1a1a;
+    --card-bg: #222222;
+    --glass-bg: rgba(255, 255, 255, 0.05);
     --text-primary: #ffffff;
-    --text-secondary: #b3b3b3;
-    --accent-blue: #007bff;
-    --accent-green: #00ff9d;
+    --text-secondary: #a0a0a0;
+    --accent-blue: #00aaff;
+    --accent-green: #00ff99;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    --glow-blue: 0 0 10px rgba(0, 170, 255, 0.6);
 }
 
 body.dark-theme {
     background-color: var(--primary-bg);
     color: var(--text-primary);
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .navbar {
     background-color: var(--secondary-bg);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid var(--border-color);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--accent-white);
+    text-shadow: var(--glow-white);
 }
 
 .ticker-tape {
     overflow: hidden;
     white-space: nowrap;
+    font-size: 1rem;
+    color: var(--text-secondary);
 }
 
 .ticker-item {
     display: inline-block;
     padding: 0 20px;
-    animation: ticker 20s linear infinite;
+    animation: ticker 12s linear infinite;
 }
 
 .market-card {
-    background-color: var(--card-bg);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: var(--glass-bg);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border-color);
+}
+
+.market-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 170, 255, 0.3);
+    border-color: var(--accent-white);
+}
+
+.market-card h3 {
+    color: var(--accent-white);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-shadow: var(--glow-blue);
 }
 
 .market-data {
@@ -44,8 +82,15 @@ body.dark-theme {
 .data-item {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1rem;
+}
+
+.data-item .value {
+    color: var(--accent-green);
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 255, 153, 0.5);
 }
 
 @keyframes ticker {
@@ -56,6 +101,10 @@ body.dark-theme {
 footer {
     background: var(--secondary-bg);
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    border-top: 2px solid var(--border-color);
+    text-shadow: var(--glow-blue);
 }

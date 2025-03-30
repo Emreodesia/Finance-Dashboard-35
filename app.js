@@ -134,6 +134,98 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     );
 
+    
+
+// Döviz kuru grafiği
+const forexChart = new Chart(
+    document.getElementById('forexChart'),
+    {
+        type: 'line',
+        data: {
+            labels: ['1 Ocak', '2 Ocak', '3 Ocak', '4 Ocak', '5 Ocak'],
+            datasets: [{
+                label: 'USD/TRY',
+                data: [36, 37, 35, 38, 36],
+                borderColor: '#36a2eb',
+                tension: 0.4,
+                borderWidth: 2,
+                pointRadius: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    },
+                    ticks: {
+                        color: '#b3b3b3'
+                    }
+                },
+                x: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    },
+                    ticks: {
+                        color: '#b3b3b3'
+                    }
+                }
+            }
+        }
+    }
+);
+
+ // Borsa İstanbul grafiği
+ const stocksCharts = new Chart(
+    document.getElementById('stocksCharts'),
+    {
+        type: 'line',
+        data: {
+            labels: ['1 Ocak', '2 Ocak', '3 Ocak', '4 Ocak', '5 Ocak'],
+            datasets: [{
+                label: 'Borsa İstanbul',
+                data: [45, 50, 48, 53, 49],
+                borderColor: '#ff6384',
+                tension: 0.4,
+                borderWidth: 2,
+                pointRadius: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    },
+                    ticks: {
+                        color: '#b3b3b3'
+                    }
+                },
+                x: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.1)'
+                    },
+                    ticks: {
+                        color: '#b3b3b3'
+                    }
+                }
+            }
+        }
+    }
+);
+
     // Canlı veri güncelleme simülasyonu
     setInterval(updatePrices, 5000);
 
