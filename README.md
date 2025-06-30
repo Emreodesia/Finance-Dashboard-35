@@ -1,6 +1,6 @@
-Fintec Open 💹
+Finance-Dashboard  💹
 
-Fintec Open is a modern and dark themed financial tracking platform. It allows you to follow cryptocurrency markets and stocks with real-time data.
+Finance-Dashboard is a modern and dark themed financial tracking platform. It allows you to follow cryptocurrency markets and stocks with real-time data.
 
 🚀 Features
  Live Cryptocurrency Data – Follow the latest prices in the market.
@@ -13,8 +13,8 @@ Fintec Open is a modern and dark themed financial tracking platform. It allows y
 
  Responsive Design – Seamless use on all devices.
 
-🔗 Demo: Fintec Open
-https://emreodesia.github.io/Fintec-Open-/
+🔗 Demo: Finance-Dashboard
+[https://emreodesia.github.io/Fintec-Open-/](https://emreodesia.github.io/Finance-Dashboard-35/)
 ![Ekr112an Alıntısı](https://github.com/user-attachments/assets/00a7eb46-cb61-440d-a91f-8188d5b308c2)
 
 
